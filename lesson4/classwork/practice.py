@@ -3,7 +3,11 @@
 # "name" -> your name
 # "grade" -> your grade level
 # Print the dictionary and then print only the name.
-
+students = {
+    "Kaiden": 6,
+}
+for name in students:
+    print(name, "is in grade", students[name])
 
 
 # Problem 2
@@ -13,8 +17,16 @@
 # "orange" -> 3
 # Ask the user for a fruit name and print its price.
 # If the fruit is not in the dictionary, print "Not found".
-
-
+prices = {
+    "Apple": 2,
+    "Banana": 1,
+    "Orange": 3,
+}
+fruit_name = input("Please give me a fruit name: ")
+if fruit_name in prices:
+    print("$", prices[fruit_name])
+else:
+    print("Fruit not found.")
 
 # Problem 3
 # Ask the user for a word.
