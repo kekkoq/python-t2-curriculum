@@ -1,0 +1,3 @@
+[submodule "python-t2-curriculum"]
+	path = python-t2-curriculum
+	url = https://github.com/kekkoq/python-t2-curriculum.git
