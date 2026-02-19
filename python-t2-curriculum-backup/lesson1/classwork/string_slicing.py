@@ -1,0 +1,12 @@
+word = "pineapple"
+print("first letter:",word[0])
+print("second letter:",word[1])
+print("third letter:",word[2])
+print("laste letter:",word[-1])
+print("second to last letter:",word[-2])
+print(word[0:4])
+print(word[4:9])
+print(word[:4])
+print(word[4:])
+print(word[::2])
+print(word[::-1])
