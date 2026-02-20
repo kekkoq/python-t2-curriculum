@@ -84,6 +84,6 @@ def count_letters(word):
     return counts
 
 if count_letters(word2) == count_letters(word3):
-    print("They are anagrams!")
+    print("They are anagrams")
 else:
     print("Not anagrams.")
