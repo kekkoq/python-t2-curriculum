@@ -1,21 +1,24 @@
 # Problem 1
 # Create a tuple called colors with 3 colors.
 # Print the first color and the last color.
-
-
+colors = ("red", "green", "blue")
+print(colors[0])
+print(colors[2])
 
 # Problem 2
 # Create a tuple called location with (city, state).
 # Unpack it into city and state variables and print them.
-
-
-
+location = ("seattle", "washington")
+city, state = location
+print("City:,", city)
+print("State:", state)
 # Problem 3
 # Create a list of tuples called points with 3 points:
 # (0, 0), (2, 5), (4, 1)
 # Loop through points and print each x and y.
-
-
+l = [(0, 0), (2, 5), (4, 1)]
+for p in l:
+    print(p)
 
 # Problem 4
 # Ask the user for two numbers.
