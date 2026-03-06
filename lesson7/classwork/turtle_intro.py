@@ -1,0 +1,27 @@
+import turtle
+
+t = turtle.Turtle()
+t.speed(3)
+
+t.forward(100)
+t.left(90)
+t.forward(100)
+t.right(90)
+t.forward(85)
+t.penup()
+t.right(180)
+t.forward(200)
+t.pendown()
+t.forward(150)
+t.penup()
+t.left(90)
+t.forward(175)
+t.left(90)
+t.pendown()
+t.forward(50)
+t.right(90)
+t.forward(25)
+t.left(90)
+t.forward(200)
+
+turtle.done()
